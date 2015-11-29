@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?link rel="stylesheet" type="text/css" href="/css/estilo.css"?>
+<zk xmlns="http://www.zkoss.org/2005/zul">
+        <window  style="margin-top:100px; margin-left:auto; margin-right:auto;" title="Creacion de nuevo Usuario" width="300px"  height="400px" apply="com.cgmuros.pruebazk.controller.CuentaController"  >
+            <grid>
+                <columns>
+                    <column width="99px"/>
+                    <column width="199px"/>
+                </columns>
+                <rows>
+                    <row>	
+                        <label id="" value="Usuario"/>
+                        <textbox id="usuario" placeholder="Usuario"/>
+                    </row>
+                    <row>
+                        <label id="" value="Contraseña"></label>
+                        <textbox id="contrasena" placeholder="Contraseña"  type="password"/>
+                    </row>
+                    <row>
+                        <label id="" value="Nombre"></label>
+                        <textbox id="nombre" placeholder="Tu Nombre" />
+                    </row>
+                    <row>
+                        <label id="" value="Apellido"></label>
+                        <textbox id="apellido" placeholder="Tu apellido" />
+                    </row>
+                    <row>
+                        <label id="" value="Email"></label>
+                        <textbox id="email" placeholder="Email" constraint="/.+@.+\.[a-z]+/: Ese no es un email válido"/>
+                    </row>
+                    <row spans="2" align="right">
+                        <button label="Crear" id="crearCuenta" disabled="true" sclass="boton" >
+                        </button>
+                    </row>
+                </rows>
+            </grid>
+        </window>
+</zk>

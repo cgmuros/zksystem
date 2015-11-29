@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?link rel="stylesheet" type="text/css" href="/css/estilo.css"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <window style="margin-top:100px; margin-left:auto; margin-right:auto;" width="300px"  height="400px"  apply="com.cgmuros.pruebazk.controller.LoginController">
+        <caption label="Mantenedor de Documentos" zclass="textotitulo" />
+        <grid>
+            <columns>
+                <column width="99px"/>
+                <column width="199px"/>
+            </columns>
+            <rows>
+                <row>
+                    <label id="" value="Usuario"/>
+                    <textbox id="usuario" placeholder="Usuario"/>
+                </row>
+                <row>
+                    <label id="" value="Contraseña"></label>
+                    <textbox id="contrasena" placeholder="Contraseña"  type="password"/>
+                </row>
+                <row spans="2" align="right">
+                    <button label="Entrar" id="entrar" disabled="false" sclass="boton" >
+                    </button>
+                </row>
+            </rows>
+        </grid>
+                
+    </window>
+</zk>
