@@ -41,7 +41,7 @@ public class LoginController extends SelectorComposer<Component> {
         ICuenta nuevaCuenta = new CuentaImpl();
         if (nuevaCuenta.Login(cuenta)) {
             Session sess = Sessions.getCurrent();
-            sess.setAttribute("key", cuenta);
+            sess.setAttribute("key", cuenta);   
             Executions.sendRedirect("Cuenta/Crea.zul");
         }
     }

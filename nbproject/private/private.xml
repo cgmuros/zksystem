@@ -4,9 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/cgmuros/Desarrollo/ZK/Prueba/src/java/com/cgmuros/pruebazk/business/CuentaImpl.java</file>
-            <file>file:/home/cgmuros/Desarrollo/ZK/Prueba/src/java/com/cgmuros/pruebazk/model/Cuenta.java</file>
+            <file>file:/home/cgmuros/Desarrollo/ZK/Prueba/src/java/com/cgmuros/pruebazk/controller/CuentaController.java</file>
+            <file>file:/home/cgmuros/Desarrollo/ZK/Prueba/src/java/com/cgmuros/pruebazk/controller/LoginController.java</file>
             <file>file:/home/cgmuros/Desarrollo/ZK/Prueba/web/index.zul</file>
             <file>file:/home/cgmuros/Desarrollo/ZK/Prueba/src/java/com/cgmuros/pruebazk/resource/hibernate.cfg.xml</file>
+            <file>file:/home/cgmuros/Desarrollo/ZK/Prueba/web/Cuenta/Crea.zul</file>
         </group>
     </open-files>
 </project-private>
