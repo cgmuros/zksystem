@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?link rel="stylesheet" type="text/css" href="/css/estilo.css"?>
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <window title="" width="400px"  height="600px" apply="com.cgmuros.pruebazk.controller.DocumentoController">
+        <grid>
+            <columns>
+                <column label=""/>
+                <column label=""/>
+            </columns>
+            <rows>
+                <row>	
+                    <button sclass="foo-pretty" upload="true" label="upload" id="up"></button>   
+                    <label id="lbl" />
+                </row>
+                <row>
+                    Fecha Compra
+                    <datebox id="fechaCompra" />
+                </row>
+                <row>
+                    Meses Garantia
+                    <textbox value="" id="mesesGarantia"/>
+                    
+                </row>
+                <row>
+                    <button label="Guardar Documento" id="guardarDocumento" sclass="boton" >
+                    </button>
+                </row>
+            </rows>
+        </grid>
+        
+    </window>
+</zk>

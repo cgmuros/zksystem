@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 1, 2015 11:35:42 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.cgmuros.pruebazk.model.Documento" table="documento" schema="public" optimistic-lock="version">
+        <id name="idDocumento" type="int">
+            <column name="id_documento" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombreArchivo" type="string">
+            <column name="nombre_archivo" length="100" />
+        </property>
+        <property name="documentoFisico" type="binary">
+            <column name="documento_fisico" />
+        </property>
+        <property name="fechaCompra" type="date">
+            <column name="fecha_compra" length="13" />
+        </property>
+        <property name="mesesGarantia" type="java.lang.Integer">
+            <column name="meses_garantia" />
+        </property>
+    </class>
+</hibernate-mapping>
