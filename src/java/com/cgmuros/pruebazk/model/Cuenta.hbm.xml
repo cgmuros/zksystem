@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated Jul 19, 2015 8:23:11 AM by Hibernate Tools 4.3.1 -->
+<!-- Generated Dec 1, 2015 11:35:42 AM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="com.cgmuros.pruebazk.model.Cuenta" table="public.cuenta" catalog="bd_prestamos" optimistic-lock="version">
+    <class name="com.cgmuros.pruebazk.model.Cuenta" table="public.cuenta" catalog="bd_prestamos">
         <id name="id" type="java.lang.Integer">
             <column name="id" />
-            <generator class="identity" />
+            <generator class="identity"></generator>
         </id>
         <property name="usuario" type="string">
             <column name="usuario" length="45" />

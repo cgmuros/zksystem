@@ -1,5 +1,5 @@
 package com.cgmuros.pruebazk.model;
-// Generated Jul 19, 2015 8:23:10 AM by Hibernate Tools 4.3.1
+// Generated Dec 1, 2015 11:35:41 AM by Hibernate Tools 4.3.1
 
 
 

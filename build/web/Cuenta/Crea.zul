@@ -8,7 +8,7 @@
                     <column width="199px"/>
                 </columns>
                 <rows>
-                    <row>	
+                    <row>	 
                         <label id="" value="Usuario"/>
                         <textbox id="usuario" placeholder="Usuario"/>
                     </row>
